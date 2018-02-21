@@ -18,25 +18,28 @@ a{
 	a:active{ text-decoration: underline; }
 
 /* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
+/*
 
 body{
     font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
 }
+*/
 /* you can put your code all in one line like above */
 #page{ margin: 20px; }
 
 /* or on different lines like below */
 #logo{
-	width: 35%;
+	width: 100%;
 	margin-top: 5px;
-	font-family: georgia;
+	font-family: American Typewriter, serif;
 	display: inline-block;
+    text-align: center;
 }
 /* but try and be as concise as possible */
 #nav{
-	width: 60%;
+	width: 100%;
 	display: inline-block;
-	text-align: right;
+	text-align: center;
 	float: right;
 }
 	#nav ul{}
@@ -60,6 +63,8 @@ body{
 	background: white;
 	padding: 20px;
 	clear: both;
+    font-family: American Typewriter, serif;
+    text-align: center;
 }
 #footer{
 	border-bottom: 1px #ccc solid;
@@ -75,3 +80,24 @@ body{
 /* multiple styles seperated by a , */
 #content,
 ul li a{ box-shadow: 0px 1px 1px #999; }
+
+.title
+{
+    font-size: "30px";
+}
+
+
+body { 
+    /* The image used */
+    background-image: url("https://pbs.twimg.com/media/C6d07JxU8AEFS1Q.jpg");
+
+    /* Full height */
+    height: 100%; 
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
